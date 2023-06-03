@@ -21,6 +21,6 @@ add_files -fileset constrs_1 -norecurse $origin_dir/constraints/iotSDR_IOT_7020.
 update_compile_order -fileset sources_1
 launch_runs impl_1 -to_step write_bitstream -jobs 6
 wait_on_run impl_1
-file copy -force $origin_dir/iotSDR_IOT_pynq/iotSDR_IOT.runs/impl_1/design_1_wrapper.bit $origin_dir/iotSDR_IOT/bitstream/iotSDR_IOT.bit
-file copy -force $origin_dir/iotSDR_IOT_pynq/iotSDR_IOT.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh $origin_dir/iotSDR_IOT/bitstream/iotSDR_IOT.hwh
-file copy -force $origin_dir/iotSDR_IOT_pynq/iotSDR_IOT.runs/impl_1/design_1_wrapper.ltx $origin_dir/iotSDR_IOT/bitstream/iotSDR_IOT.ltx
+# file copy -force $origin_dir/iotSDR_IOT_pynq/iotSDR_IOT.runs/impl_1/design_1_wrapper.bit $origin_dir/iotSDR_IOT/bitstream/iotSDR_IOT.bit
+# file copy -force $origin_dir/iotSDR_IOT_pynq/iotSDR_IOT.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh $origin_dir/iotSDR_IOT/bitstream/iotSDR_IOT.hwh
+# file copy -force $origin_dir/iotSDR_IOT_pynq/iotSDR_IOT.runs/impl_1/design_1_wrapper.ltx $origin_dir/iotSDR_IOT/bitstream/iotSDR_IOT.ltx
